@@ -1,0 +1,138 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  } 
+  
+  .title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .addButton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .saveButton {
+    display: block;
+    margin: 5px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .cancelButton {
+    display: block;
+    margin: 5px auto;
+    padding: 10px 20px;
+    background-color: #c61818;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dishGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 10px;
+  }
+  
+  .dishCard {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .detailsButton, .deleteButton {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .detailsButton {
+    background-color: #2196F3;
+    color: white;
+    display: block;
+  }
+  
+  .deleteButton {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  .modalContent form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modalContent input {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .modalContent button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 600px) {
+    .dishGrid {
+      grid-template-columns: 1fr;
+    }
+    
+    .modalContent {
+      width: 95%;
+    }
+  }
+
+.filterLabel {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.filterInput {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

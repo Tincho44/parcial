@@ -1,0 +1,95 @@
+{
+  "dishes": [
+    {
+      "id": "1",
+      "name": "Pizza Margherita",
+      "description": "Clásica pizza italiana con tomate, mozzarella y albahaca fresca.",
+      "type": "italiana",
+      "preparation": "Extiende la masa, añade salsa de tomate, mozzarella y hornea."
+    },
+    {
+      "id": "5",
+      "name": "Bowl Vegano",
+      "description": "Delicioso bowl con quinoa y verduras asadas.",
+      "type": "vegana",
+      "preparation": "Cocina quinoa, asa las verduras y mezcla con salsa."
+    },
+    {
+      "id": "9",
+      "name": "Falafel",
+      "description": "Bolitas de garbanzos fritas, servidas con salsa tahini.",
+      "type": "mediterránea",
+      "preparation": "Forma las bolitas de garbanzos y fríelas hasta dorar."
+    },
+    {
+      "id": "10",
+      "name": "Gelato",
+      "description": "Helado italiano cremoso en diversos sabores.",
+      "type": "italiana",
+      "preparation": "Mezcla los ingredientes y congela, revolviendo ocasionalmente."
+    },
+    {
+      "id": "8b06",
+      "name": "lasdjk",
+      "description": "asdas",
+      "type": "asdas",
+      "preparation": "asdasd"
+    },
+    {
+      "id": "7099",
+      "name": "tincho",
+      "description": "saasdkln",
+      "type": "asdasdlkn",
+      "preparation": "asdasdk"
+    },
+    {
+      "id": "1c60",
+      "name": "asd",
+      "description": "asd",
+      "type": "asd",
+      "preparation": "asdasd"
+    },
+    {
+      "id": "5003",
+      "name": "asd",
+      "description": "asd",
+      "type": "asd",
+      "preparation": "asd"
+    },
+    {
+      "id": "b797",
+      "name": "asd",
+      "description": "asdasd",
+      "type": "asdasd",
+      "preparation": "asdasdads"
+    },
+    {
+      "id": "3896",
+      "name": "ZX",
+      "description": "asd",
+      "type": "asd",
+      "preparation": "asd"
+    },
+    {
+      "id": "2435",
+      "name": "ad",
+      "description": "asdasd",
+      "type": "asdas",
+      "preparation": "asdasdsad"
+    },
+    {
+      "id": "3efe",
+      "name": "asd",
+      "description": "das",
+      "type": "dasdasd",
+      "preparation": "asdasd"
+    },
+    {
+      "id": "18f3",
+      "name": "aksljdlka;sd",
+      "description": "asjdoasjd",
+      "type": "asdasd",
+      "preparation": "asdasdasd"
+    }
+  ]
+}
